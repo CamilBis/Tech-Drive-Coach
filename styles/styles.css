@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Arial";
+}
+
+header {
+	height: 35px;
+	background-color: yellow;
+}
+
+.major-title {
+	font-size: 32px;
+	text-align: center;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.subtitles {
+	font-size: 42px;
+}
+
+.medium {
+	font-size: 28px;
+}
+
+.bold {
+	font-weight: bold;
+}
+/* ----------------------------- */
+
+td {
+	border: 1px solid black;
+	height: 125px;
+	width: 250px;
+	text-align: center;
+}
+
+.slim-w {
+	width: 240px;
+}
+
+.slim-h {
+	height: 70px;
+}
+
+.gray-case {
+	background-color: darkgray;
+}
+
+.other-td {
+	border-left: 5px solid black;
+}
+
+/* ------------------------------ */
+
+.button-image {
+	height: 64px;
+	width: 64px;
+}
+
+.down-image {
+	height: 64px;
+	width: 64px;
+	transform: scaleY(-1);
+}
+
+#my-score {
+	color: green;
+	font-size: 54px;
+	font-family: "Arial";
+	font-weight: bold;	
+}
+
+#opp-score {
+	color: orange;
+	font-size: 54px;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.centered {
+	text-align: center;
+}
+
+#auto-winner-button-ally {
+	height: 30px;
+	width: 150px;
+	border: none;
+	background-color: green;
+	margin-top: 10px;
+}
+
+#auto-winner-button-opp {
+	height: 30px;
+	width: 150px;
+	border: none;
+	background-color: orange;
+	margin-top: 5px;
+}
+
+.auto-winner-text {
+	font-size: 24px;
+	font-family: "Arial";
+}
+
+.conseil-text {
+	font-family: "Arial";
+	font-size: 18px;
+}
